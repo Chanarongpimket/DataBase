@@ -25,10 +25,13 @@ mongoose.connect(dbConfig.url)
 app.use(cors())
 require('./route/customer.route.js')(app);
 
-const server = app.listen(3000, ()=>{
-    let port = server.address().port
-    console.log('Run at http://localhost:%s', port)
+const server = app.listen(process.env.PORT || 3000, ()=>{
+    console.log('Run')
 })
+// const server = app.listen(3000, ()=>{
+//     let port = server.address().port
+//     console.log('Run at http://localhost:%s', port)
+// })
 
 function initCustomer(){
     let data = [
