@@ -18,7 +18,7 @@ mongoose.connect(dbConfig.url)
     .then(()=>{
         console.log('Connect')
     }).catch(err=>{
-        console.log('Cannot Connect to MongoDB')
+        console.log("Can't connect to MongoDB")
         process.exit();
     })
 

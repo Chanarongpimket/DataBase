@@ -11,7 +11,7 @@ Content-Type: application/json
     "Address": "japan"
 }
 ###
-PUT http://localhost:3000/api/customer/63b50cd6ba34aca8cd57983f HTTP/1.1
+PUT http://localhost:3000/api/customer/63be3634aadb90ebbad76e4e HTTP/1.1
 Content-Type: application/json
 
 {
@@ -20,4 +20,4 @@ Content-Type: application/json
     "Address": "laos"
 }
 ###
-DELETE http://localhost:3000/api/customer/63b512593a1c76a46312c302 HTTP/1.1
+DELETE http://localhost:3000/api/customer/63be2e10aadb90ebbad76e47 HTTP/1.1
