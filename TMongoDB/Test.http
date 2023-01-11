@@ -6,9 +6,9 @@ POST http://localhost:3000/api/customer HTTP/1.1
 Content-Type: application/json
 
 {
-    "CustomerId": 1004,
-    "FullName": "Mawin",
-    "Address": "England"
+    "CustomerId": 1005,
+    "FullName": "Bass",
+    "Address": "japan"
 }
 ###
 PUT http://localhost:3000/api/customer/63b50cd6ba34aca8cd57983f HTTP/1.1
